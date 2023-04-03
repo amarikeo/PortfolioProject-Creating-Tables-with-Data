@@ -11,7 +11,7 @@ This SQL code creates two tables for a Fashion Stylist database: "stylists" and 
 * phone - VARCHAR(50) - The stylist's phone number
 
 ##categories
-** *category_id -* INT NOT NULL - Primary key for the table
+** **category_id -** INT NOT NULL - Primary key for the table
 ** category_type - VARCHAR(50) - The type of fashion category
 ** release_date - DATE - The date when the fashion category was released
 ** stylist_id - INT NOT NULL - The ID of the stylist who is responsible for that category. This field is a foreign key that ** references the "stylists" table.
