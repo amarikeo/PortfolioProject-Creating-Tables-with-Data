@@ -1,7 +1,7 @@
 # Fashion Stylist Database
 This SQL code creates two tables for a Fashion Stylist database: "stylists" and "categories". The "stylists" table includes columns for the stylist's ID, first and last name, category, gender, birthdate, and phone number. The "categories" table includes columns for the category ID, category type, release date, and the ID of the stylist who is responsible for that category.
 
-#Tables
+# Tables
 ## stylists
 * **stylist_id -** INT NOT NULL - Primary key for the table
 * **first_name -** VARCHAR(50) NOT NULL - The stylist's first name
