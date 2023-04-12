@@ -22,8 +22,8 @@ category_type VARCHAR(50),
 release_date DATE,
 stylist_id INT NOT NULL,
 CONSTRAINT pk_category_id PRIMARY KEY (category_id),
-CONSTRAINT FOREIGN KEY (stylist_id) REFERENCES stylists (stylist_id))
-;
+CONSTRAINT fk_stylist_id FOREIGN KEY (stylist_id) REFERENCES stylists (stylist_id)
+);
 
 INSERT INTO stylists (stylist_id, first_name, last_name, gender, birth_date, phone)
 VALUES (2422, 'Sarah', 'Anderson', 'F', '1999-02-02', '229-093-3741'),
