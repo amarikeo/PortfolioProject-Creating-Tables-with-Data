@@ -1,4 +1,5 @@
 # Fashion Stylist Database
+![Screenshot (227)](https://user-images.githubusercontent.com/129122755/231604693-57279f84-9592-4f9d-8f81-a20c96901116.png)
 This SQL code creates two tables for a Fashion Stylist database: "stylists" and "categories". The "stylists" table includes columns for the stylist's ID, first and last name, category, gender, birthdate, and phone number. The "categories" table includes columns for the category ID, category type, release date, and the ID of the stylist who is responsible for that category.
 
 # Tables
