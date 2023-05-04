@@ -19,3 +19,4 @@ This SQL code creates two tables for a Fashion Stylist database: "stylists" and 
 
 # Data
 The INSERT INTO statement adds three rows of data to the "stylists" table, each with a unique ID, first and last name, gender, birthdate, and phone number. The 2nd INSERT INTO statement adds three rows of data to the "categories" table, each with a unique ID, category_type, release_date, and stylist_id. The stylist_id value for each row corresponds to the stylist_id values in the stylists table, and is used as a foreign key to link the two tables together.
+ 
