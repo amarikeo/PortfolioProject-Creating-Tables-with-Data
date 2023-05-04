@@ -7,7 +7,7 @@ This SQL code creates two tables for a Fashion Stylist database: "stylists" and 
 * **stylist_id -** INT NOT NULL - Primary key for the table
 * **first_name -** VARCHAR(50) NOT NULL - The stylist's first name
 * **last_name -** VARCHAR(50) NOT NULL - The stylist's last name
-* **gender -** CHAR(1) CHECK (gender IN ('M', 'F')) - The stylist's gender
+* **gender -** CHAR(1) CHECK (gender IN ('M', 'F')) - The stylist's gender 
 * **birth_date -** DATE - The stylist's birthdate
 * **phone -** VARCHAR(50) - The stylist's phone number
 
