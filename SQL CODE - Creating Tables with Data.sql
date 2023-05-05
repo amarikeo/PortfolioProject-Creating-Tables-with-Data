@@ -36,3 +36,9 @@ VALUES (0922, 'Streetwear', '2001-01-01', 1324),
 	   (4300, 'Business', '1991-02-03', 6023),
        (1199, 'Old Fashion', '2018-09-11', 2422)
 ;
+
+-- Select the fashion stylist whose fashion release date was in January.
+SELECT s.*, c.category_type
+FROM stylists s
+JOIN categories c USING(stylist_id)
+WHERE EXTRACT(MONTH FROM c.release_date) = 1;
